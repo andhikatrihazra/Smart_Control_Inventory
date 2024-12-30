@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Premium Product Collection</title>
+    <title>Kardus Pack Jakal UII</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
     <style>
@@ -56,14 +56,14 @@
     <!-- Mobile Menu -->
     <div class="mobile-menu">
         <div class="flex justify-between items-center mb-8">
-            <div class="text-2xl font-bold text-gradient">Premium Store</div>
+            <div class="text-2xl font-bold text-gradient">Kardus Pack Jakal UII</div>
             <button class="close-menu text-2xl">×</button>
         </div>
         <div class="flex flex-col space-y-6">
             <a href="#" class="text-gray-600 text-lg">Home</a>
             <a href="#products" class="text-gray-600 text-lg">Products</a>
-            <a href="#" class="text-gray-600 text-lg">About</a>
-            <a href="#" class="text-gray-600 text-lg">Contact</a>
+            <a href="#footer" class="text-gray-600 text-lg">About</a>
+            <a href="#footer" class="text-gray-600 text-lg">Contact</a>
             <a href="/admin" class="text-white bg-indigo-600 text-center py-2 rounded-full">Sign In</a>
         </div>
     </div>
@@ -72,13 +72,13 @@
     <nav class="bg-white shadow-md fixed w-full z-50">
         <div class="container mx-auto px-4 py-4">
             <div class="flex items-center justify-between">
-                <div class="text-xl md:text-2xl font-bold text-gradient">Premium Store</div>
+                <div class="text-xl md:text-2xl font-bold text-gradient">Kardus Pack Jakal UII</div>
 
                 <div class="hidden md:flex space-x-8">
                     <a href="#" class="text-gray-600 hover:text-indigo-600 transition-colors">Home</a>
                     <a href="#products" class="text-gray-600 hover:text-indigo-600 transition-colors">Products</a>
-                    <a href="#" class="text-gray-600 hover:text-indigo-600 transition-colors">About</a>
-                    <a href="#" class="text-gray-600 hover:text-indigo-600 transition-colors">Contact</a>
+                    <a href="#footer" class="text-gray-600 hover:text-indigo-600 transition-colors">About</a>
+                    <a href="#footer" class="text-gray-600 hover:text-indigo-600 transition-colors">Contact</a>
                 </div>
 
                 <div class="hidden md:flex">
@@ -103,20 +103,16 @@
             <div class="flex flex-col lg:flex-row items-center">
                 <div class="lg:w-1/2 text-white text-center lg:text-left">
                     <h1 class="text-4xl md:text-6xl font-bold leading-tight mb-6">
-                        Discover Premium Quality Products
+                    Kardus Packing Berkualitas
                     </h1>
                     <p class="text-lg md:text-xl mb-8 opacity-90">
-                        Exclusive collection of hand-picked products designed for your lifestyle.
+                    Temukan koleksi kardus packing premium untuk memenuhi kebutuhan pengiriman Anda. Kuat, tahan lama, dan andal — pilihan sempurna untuk menjaga produk Anda tetap aman hingga tujuan.
                     </p>
                     <div
                         class="flex flex-col sm:flex-row justify-center lg:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
                         <a href="#products"
                             class="bg-white text-indigo-600 px-8 py-3 rounded-full font-semibold hover:bg-opacity-90 transition-colors">
                             Shop Now
-                        </a>
-                        <a href="#"
-                            class="border-2 border-white text-white px-8 py-3 rounded-full font-semibold hover:bg-white hover:text-indigo-600 transition-colors">
-                            Learn More
                         </a>
                     </div>
                 </div>
@@ -131,9 +127,9 @@
     <!-- Products Section -->
     <section id="products" class="py-16 md:py-20">
         <div class="container mx-auto px-4 md:px-6">
-            <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 text-gradient">Featured Products</h2>
+            <h2 class="text-3xl md:text-4xl font-bold text-center mb-4 text-gradient">Produk Unggulan</h2>
             <p class="text-gray-600 text-center mb-12 max-w-2xl mx-auto px-4">
-                Discover our carefully curated collection of premium products designed to enhance your lifestyle.
+            Temukan Koleksi Kardus Packing Premium Kami yang Dirancang untuk Menjamin Keamanan Pengiriman Anda
             </p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
@@ -172,44 +168,43 @@
                 <div class="text-center p-4 md:p-6">
                     <div class="text-4xl text-indigo-600 mb-4">⚡</div>
                     <h3 class="text-lg md:text-xl font-semibold mb-2">Fast Delivery</h3>
-                    <p class="text-gray-600">Get your products delivered within 24 hours</p>
+                    <p class="text-gray-600">Get your products delivered</p>
                 </div>
                 <div class="text-center p-4 md:p-6">
                     <div class="text-4xl text-indigo-600 mb-4">🛡️</div>
-                    <h3 class="text-lg md:text-xl font-semibold mb-2">Secure Payment</h3>
-                    <p class="text-gray-600">100% secure payment methods</p>
+                    <h3 class="text-lg md:text-xl font-semibold mb-2">Secure</h3>
+                    <p class="text-gray-600">100% secure</p>
                 </div>
                 <div class="text-center p-4 md:p-6">
                     <div class="text-4xl text-indigo-600 mb-4">💫</div>
                     <h3 class="text-lg md:text-xl font-semibold mb-2">Premium Quality</h3>
-                    <p class="text-gray-600">Handpicked premium products</p>
+                    <p class="text-gray-600">Premium products</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-900 text-white py-12">
+    <footer class="bg-gray-900 text-white py-12" id="footer">
         <div class="container mx-auto px-4 md:px-6">
             <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
                 <div class="text-center md:text-left">
-                    <h4 class="text-lg md:text-xl font-semibold mb-4">Premium Store</h4>
-                    <p class="text-gray-400">Your destination for premium quality products.</p>
+                    <h4 class="text-lg md:text-xl font-semibold mb-4">Kardus Pack Jakal UII</h4>
+                    <p class="text-gray-400">Pilihan Dan Solusi Terbaik Anda</p>
                 </div>
                 <div class="text-center md:text-left">
                     <h4 class="text-lg md:text-xl font-semibold mb-4">Quick Links</h4>
                     <ul class="space-y-2">
                         <li><a href="#" class="text-gray-400 hover:text-white transition-colors">About Us</a></li>
                         <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Contact</a></li>
-                        <li><a href="#" class="text-gray-400 hover:text-white transition-colors">FAQs</a></li>
+                        <!-- <li><a href="#" class="text-gray-400 hover:text-white transition-colors">FAQs</a></li> -->
                     </ul>
                 </div>
                 <div class="text-center md:text-left">
                     <h4 class="text-lg md:text-xl font-semibold mb-4">Contact Us</h4>
                     <ul class="space-y-2 text-gray-400">
-                        <li>contact@premiumstore.com</li>
-                        <li>+1 234 567 890</li>
-                        <li>123 Premium Street</li>
+                        <li>andhikahazra99@gmail.com</li>
+                        <li>JL. Kaliurang KM 14.5, Sleman, Yogyakarta</li>
                     </ul>
                 </div>
                 <div>
@@ -225,7 +220,7 @@
                 </div>
             </div>
             <div class="border-t border-gray-800 mt-12 pt-8 text-center text-sm md:text-base text-gray-400">
-                <p>© 2024 Premium Store. All rights reserved.</p>
+                <p>© 2024 Andhika Tri Hazra Code. All rights reserved.</p>
             </div>
         </div>
     </footer>
