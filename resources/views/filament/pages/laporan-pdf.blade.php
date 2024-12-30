@@ -210,7 +210,7 @@
 
         <div class="footer">
             <p>&copy; {{ \Carbon\Carbon::now()->format('Y') }} All Rights Reserved</p>
-            <div class="company">Toko Bu Budi | TUAN MUDA | Andhika Tri Hazra</div>
+            <div class="company">Kardus Pack Jakal UII | Andhika Tri Hazra Code</div>
         </div>
     </div>
 </body>

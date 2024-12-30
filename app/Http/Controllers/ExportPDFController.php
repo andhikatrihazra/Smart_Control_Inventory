@@ -30,7 +30,7 @@ class ExportPDFController extends Controller
         'pendapatan_bersih' => $data->sum('pendapatan_bersih'),
     ];
 
-    $title = $request->get('title', 'Laporan Penjualan Bulan Ini - Toko Bu Budi');
+    $title = $request->get('title', 'Laporan Penjualan Bulan Ini - Kardus Pack Jakal UII');
 
     $pdf = Pdf::loadView('filament.pages.laporan-pdf', compact('data', 'totals', 'title'));
 
